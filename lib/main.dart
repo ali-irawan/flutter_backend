@@ -25,6 +25,8 @@ class MyApp extends StatelessWidget {
       initialRoute: '/',
       routes: {
         '/': (context) => MyHomePage('Navigation'),
+        '/stateful': (context) => SimpleStatefulScreen(),
+        '/login': (context) => LoginScreen(),
         DetailScreen.routeName: (context) => DetailScreen(),
       },
     );
